@@ -1,18 +1,18 @@
 package reference.javaseconcepts.lambdas;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Objects;
 import java.util.function.Predicate;
 
-import org.junit.jupiter.api.Test;
-
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PredicateTests {
 	
 	@Test
 	public void predicate_1() {
-		Predicate<String> isEmpty = s -> s.isEmpty();
+		Predicate<String> isEmpty = String::isEmpty;
 		
 		Predicate<String> isNotEmpty = isEmpty.negate();
 		
@@ -66,5 +66,4 @@ public class PredicateTests {
 		assertTrue(isEqualToAAA.test("AAA"));
 		assertFalse(isEqualToAAA.test("aaa"));
 	}
-
 }

@@ -17,5 +17,4 @@ public class DoubleBinaryOperatorTests {
 
         assertThat(sum, equalTo(3.0));
     }
-
 }

@@ -49,5 +49,4 @@ public class BiFunctionTests {
 
         assertThat(aggregate, equalTo("NAME: ANNA; AGE: 32"));
     }
-
 }

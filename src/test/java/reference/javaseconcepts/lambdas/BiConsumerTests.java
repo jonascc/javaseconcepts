@@ -34,5 +34,4 @@ public class BiConsumerTests {
 
         assertThat(names, hasSize(4));
     }
-
 }

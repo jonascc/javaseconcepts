@@ -44,5 +44,4 @@ public class BooleanSupplierTests {
             return false;
         }
     }
-
 }

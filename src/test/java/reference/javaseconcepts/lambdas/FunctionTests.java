@@ -76,5 +76,4 @@ public class FunctionTests {
 
         assertThat(person, equalTo(this.person));
     }
-
 }

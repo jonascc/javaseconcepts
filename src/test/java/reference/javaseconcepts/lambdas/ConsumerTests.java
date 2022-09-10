@@ -39,5 +39,4 @@ public class ConsumerTests {
 		
 		assertThat(list, contains("a", "b", "c", "first", "second"));
 	}
-
 }

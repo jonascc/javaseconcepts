@@ -36,5 +36,4 @@ public class BinaryOperatorTests {
 
         assertThat(lesserLength, equalTo("Anne"));
     }
-
 }

@@ -60,5 +60,4 @@ public class StreamsTests {
 
         assertThat(ages, containsInAnyOrder(41, 25, 12, 25));
     }
-
 }
